@@ -7,4 +7,5 @@ numero_usuario=int(input("ingrese cantidad de usuario: "))
 numero_usuario_premium=int(input("ingrese la cantidad ed ususario premium: "))
 gastos_totales=float(input("ingrese gastos totales: "))
 utilidades=((precio_suscripcion * numero_usuario) +(precio_suscripcion * 1.5 * precio_suscripcion) - gastos_totales)
+
 print(f"las utilidades del proyecto son :{utilidades}")
