@@ -1,12 +1,17 @@
 #Calculando IMC
 #Ingresando datos
-
-peso = float(input("ingrese su peso en Kg: "))
+while True:
+      peso = float(input("ingrese su peso en Kg: "))
+      if peso <=0:
+          print("el valor no puede ser ingresa otro mayor a 0")
+      else:
+          break
+   
 
 while True:
      altura_cm = float(input("ingrese su altura en centimetros: "))
-     if altura_cm ==0:
-         print("el valor no puede ser 0")
+     if altura_cm <=0:
+         print("el valor no puede ser ingresa otro mayor a 0")
      else:
          break    
 
