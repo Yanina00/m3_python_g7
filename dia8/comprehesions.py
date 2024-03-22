@@ -6,7 +6,7 @@ lista_pares = [] #lista vacia, 0 elementos
 for i in range(n): 
     lista_pares.append(2*i + 2)
     
-lista_pares2 = [2*i + 2 for i in range(n)]
+lista_pares2 = [2*i + 2 for i in range(n)] #comprehesions
 print(lista_pares)
 print(lista_pares2)    
 
